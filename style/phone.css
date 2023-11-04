@@ -90,8 +90,7 @@ body .hero picture {
 }
 body .hero picture source,
 body .hero picture img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
 }
 body .hero .hero-center {
   width: 100%;
