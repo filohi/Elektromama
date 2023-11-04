@@ -1,3 +1,17 @@
+/* Font weight 400 (Regular) */
+@font-face {
+  font-family: "Oswald";
+  src: url("/fonts/Oswald-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+/* Font weight 600 (Semi-Bold) */
+@font-face {
+  font-family: "Oswald";
+  src: url("/fonts/Oswald-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -47,7 +61,7 @@ body header {
   color: #fff;
   text-align: center;
   padding: 2px 0;
-  font-family: "Iceland", sans-serif !important;
+  font-family: "Oswald", sans-serif !important;
 }
 body .navbar-nav .nav-link {
   color: #333333 !important;
@@ -88,7 +102,7 @@ body .hero .hero-center h1 span {
   color: #B00C0C;
 }
 body .hero .hero-center p {
-  font-family: "Iceland", sans-serif !important;
+  font-family: "Oswald", sans-serif !important;
   font-size: 1.3rem;
 }
 body .hero::after {
