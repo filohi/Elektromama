@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Iceland&family=Oswald&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style/main.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <title>Your Page Title</title>
+</head>
+
+<body>
+  <!-- Horizontal Banner -->
+  <header>
+    <!-- Content for the horizontal banner -->
+    Zavolajte nám! +421 907 917 054
+  </header>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <a class="navbar-brand" href="#">
+      <img src="images/logo.png" alt="Logo Elektromama" srcset="" width="auto" height="44px" />
+    </a>
+    <a class="cta-button nav-link" href="#">KONTAKT</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active pl-2">
+          <a class="nav-link" href="#">ÚVOD <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown pl-2">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            SLUŽBY
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Elektrické prípojky</a>
+            <a class="dropdown-item" href="#">Revízne správy</a>
+            <a class="dropdown-item" href="#">Elektrické inštalácie</a>
+          </div>
+        </li>
+        <li class="nav-item pl-2">
+          <a class="nav-link" href="#">O MNE</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <!-- <img src="images/hero.jpg" alt="Hero Image" width="100%"> -->
+    <div class="hero-center">
+      <h1><span>MA</span>REK <span>MA</span>ŇKOŠ</h1>
+      <p>ELEKTROMAMA a elektrina pracuju pre Vás...</p>
+    </div>
+  </section>
+
+  <!-- services Section -->
+  <section class="services pb-3">
+    <h2>SLUŽBY</h2>
+    <div class="card-deck">
+      <div class="card w-80 mx-auto">
+        <img class="mx-auto pt-3" src="images/plug.png" alt="Ikona elektrické prípojky" width="105px" />
+        <div class="card-body">
+          <h5 class="card-title">Elektrické prípojky</h5>
+          <p class="card-text">
+            Odborné prehliadky a odborné skúšky elektrických zariadení
+            a systému ochrany pred bleskom.
+          </p>
+          <a class="cta-button nav-link" href="#">Prečítať viac</a>
+        </div>
+      </div>
+      <div class="card w-80 mx-auto">
+        <img class="mx-auto pt-3" src="images/certificate.png" alt="Ikona elektrické prípojky" width="105px" />
+        <div class="card-body">
+          <h5 class="card-title">Revízne správy</h5>
+          <p class="card-text">
+            Odborné prehliadky a odborné skúšky elektrických zariadení a
+            systému ochrany pred bleskom.
+          </p>
+          <a class="cta-button nav-link" href="#">Prečítať viac</a>
+        </div>
+      </div>
+      <div class="card w-80 mx-auto">
+        <img class="mx-auto pt-3" src="images/electrician.png" alt="Ikona elektrické prípojky" width="105px" />
+        <div class="card-body">
+          <h5 class="card-title">Elektrické inštalácie</h5>
+          <p class="card-text">
+            Odborné prehliadky a odborné skúšky elektrických zariadení a
+            systému ochrany pred bleskom.
+          </p>
+          <a class="cta-button nav-link" href="#">Prečítať viac</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>KONTAKT</h2>
+    <div class="contact-container">
+      <div class="contact-details">
+        <address>
+          <!-- Contact details (address, email, phone) -->
+          <div class="contact-name">
+            <span>Marek Maňkoš</span>
+          </div>
+          <div class="contact-item">
+            <img src="images/phone.png" alt="Ikona telefónu" srcset="">
+            <span>+421 907 917 054</span>
+          </div>
+          <div class="contact-item">
+            <img src="images/at.png" alt="Ikona e-mailu" srcset="">
+            <span>elektromama@elektromama.sk</span>
+          </div>
+          <div class="contact-item">
+            <img src="images/mappin.png" alt="Ikona adresy" srcset="">
+            <span>Hlavná 343/63, 082 16 Fintice</span>
+          </div>
+        </address>
+      </div>
+      <div class="contact-form">
+        <form>
+          <input type="text" id="name" name="name" placeholder="MENO" />
+  
+          <input type="email" id="email" name="email" placeholder="E-MAIL" />
+  
+          <input type="tel" id="phone" name="phone" placeholder="TEL. ČÍSLO" />
+  
+          <textarea id="message" name="message" placeholder="SPRÁVA"></textarea>
+  
+          <button type="submit">ODOSLAŤ</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section class="about-me">
+    <div class="about-container">
+      <div class="left-half">
+        <h2>O MNE</h2>
+        <p>Nejaký text, táto sekcia môže/nemusí byť. Keďže ste vysoko kvalifikovaný, dalo by sa tu spomenúť všetko od
+          vášho vzdelania, certifikátov, licencii, nejakých významných zakázkach, jednoducho hocičo, čo vie zaujať.
+          Napravo je ilustračná fotka, ktorú by sme vedeli nahradiť najlepšie nejakou vašou v podobnom štýle keďže ak sa
+          nemýlim firmu tvorí len jedna osoba, teda vy.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-services">
+        <!-- List of services in the footer -->
+        <ul>
+          <li>
+            <h3>SLUŽBY</h3>
+          </li>
+          <li><a href="">Elektrické prípojky</a></li>
+          <li><a href="">Revízne správy</a></li>
+          <li><a href="">Elektrické inštalácie</a></li>
+        </ul>
+      </div>
+      <div class="contact-info">
+        <!-- Contact information in the footer -->
+        <ul>
+          <li>
+            <h3>KONTAKT</h3>
+          </li>
+          <li>Tel. +421 907 917 054</li>
+          <li>E-mail: elektromama@elektromama.sk</li>
+          <li>Hlavná 343/63, 082 16 Fintice</li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="script/main.js"></script>
+</body>
+
+</html>

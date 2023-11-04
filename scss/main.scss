@@ -1,0 +1,143 @@
+@import 'phone';
+@import 'tablet';
+@import 'desktop';
+
+@media (min-width: 992px) {
+    body {
+
+        section h2 {
+            font-size: 3.5rem !important;
+            letter-spacing: 1px;
+        }
+
+        nav {
+            .nav-link {
+                font-size: 1.2rem;
+            }
+            .cta-button {
+                order: 1;
+                padding: 8px 30px!important;
+                letter-spacing: 2px;
+                border-radius: 30px;
+            }
+            .dropdown-item {
+                font-size: 1.2rem;
+            }
+        }
+
+        .hero {
+            height: 80vh;
+
+            .hero-center {
+                text-align: center;
+                padding: 40px;
+
+                h1 {
+                    font-size: 4rem;
+                    color: $text-color;
+                }
+
+                p {
+                    font-size: 2rem;
+                }
+            }
+        }
+
+        .services {
+            min-height: 100vh;
+
+            .card-deck {
+                justify-content: center;
+                padding: 20px 0;
+
+                .card {
+                    min-width: 300px;
+                    max-width: 300px;
+
+                    img {
+                        padding: 40px 0 !important;
+                    }
+
+                    .card-body {
+                        h5 {
+                            font-size: 2rem;
+                        }
+
+                        p {
+                            margin-bottom: 40px;
+                        }
+
+                        .cta-button {
+                            font-size: 20px;
+                            padding: 8px 45px !important;
+                            border-radius: 25px;
+                            letter-spacing: 2px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .contact {
+            min-height: 90vh;
+
+            .contact-container {
+                width: 80%;
+                margin: 0 auto;
+                padding-top: 40px;
+
+                .contact-details {
+                    .contact-name {
+                        font-size: 2.5rem;
+                    }
+
+                    .contact-item {
+                        margin: 10px 0;
+
+                        span {
+                            font-size: 1.5rem;
+                            line-height: 1.5rem;
+                        }
+
+                        img {
+                            width: 30px;
+                        }
+                    }
+                }
+
+                .contact-form {
+                    form {
+                        max-width: 85%;
+
+                        input,
+                        textarea,
+                        button {
+                            max-width: 100%;
+                            font-size: 1.2rem;
+                            padding: 5px 10px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .about-me {
+            padding: 40px 0;
+            min-height: 55vh;
+
+            .about-container {
+                width: 80%;
+                margin: 0 auto;
+            }
+        }
+
+        footer {
+            .footer-container {
+                width: 71%;
+                margin: 0 auto;
+                grid-template-columns: .6fr .4fr;
+            }
+        }
+    }
+
+}

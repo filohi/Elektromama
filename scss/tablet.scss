@@ -1,0 +1,84 @@
+
+@media (min-width: 576px) {
+    body {
+        .services {
+            .card-deck {
+                justify-content: space-around;
+
+                .card {
+                    margin: 0 20px 20px 20px !important;
+
+                }
+            }
+        }
+
+        .contact {
+            input, textarea, button {
+                max-width: 60%;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        nav {
+            .cta-button {
+                margin-left: auto;
+                margin-right: 20px;
+            }
+        }
+
+        .services {
+            .card-deck {
+                max-width: 100%;
+                margin: 0 auto;
+                justify-content: space-around;
+
+            }
+        }
+
+        .contact {
+            .contact-container {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+            .contact-form {
+
+                input,
+                textarea,
+                button {
+                    max-width: 100%;
+                }
+            }
+        }
+
+        .about-me {
+            background-image: url('../images/about.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: bottom right;
+            background-color: #fbfcfc;
+
+            .left-half {
+                max-width: 60%;
+
+                h2 {
+                    text-align: left;
+                    width: 80%;
+                    margin: 0 auto;
+                    padding: 20px 0;
+                }
+            }
+        }
+
+        footer {
+            .footer-container {
+                width: 90%;
+                margin: 0 auto;
+                grid-template-columns: 1fr 1fr;
+
+            }
+        }
+    }
+}

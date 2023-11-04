@@ -1,0 +1,54 @@
+@media (min-width: 576px) {
+  body .services .card-deck {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body .services .card-deck .card {
+    margin: 0 20px 20px 20px !important;
+  }
+  body .contact input, body .contact textarea, body .contact button {
+    max-width: 60%;
+  }
+}
+@media (min-width: 768px) {
+  body nav .cta-button {
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  body .services .card-deck {
+    max-width: 100%;
+    margin: 0 auto;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body .contact .contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  body .contact .contact-form input,
+  body .contact .contact-form textarea,
+  body .contact .contact-form button {
+    max-width: 100%;
+  }
+  body .about-me {
+    background-image: url("../images/about.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: #fbfcfc;
+  }
+  body .about-me .left-half {
+    max-width: 60%;
+  }
+  body .about-me .left-half h2 {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  body footer .footer-container {
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+  }
+}/*# sourceMappingURL=tablet.css.map */
