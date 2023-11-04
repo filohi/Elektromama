@@ -1,7 +1,7 @@
     /* Font weight 400 (Regular) */
     @font-face {
         font-family: "Oswald";
-        src: url("/fonts/Oswald-Regular.woff2") format("woff2");
+        src: url("../fonts/static/Oswald-Regular.ttf") format("truetype");
         font-weight: 400;
         font-style: normal;
     }
@@ -9,7 +9,7 @@
     /* Font weight 600 (Semi-Bold) */
     @font-face {
         font-family: "Oswald";
-        src: url("/fonts/Oswald-SemiBold.woff2") format("woff2");
+        src: url("../fonts/static/Oswald-SemiBold.ttf") format("truetype");
         font-weight: 600;
         font-style: normal;
     }
