@@ -82,7 +82,6 @@ body .hero {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -270,7 +269,8 @@ body .contact .contact-form form input:not(:empty),
 body .contact .contact-form form textarea:not(:empty) {
   border: 2px solid yellow;
 }
-body .contact .contact-form form button {
+body .contact .contact-form form input[type=submit] {
+  color: black;
   margin: 5px 0;
   background: white;
   border: 2px solid black;

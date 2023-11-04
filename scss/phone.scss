@@ -90,7 +90,6 @@
             position: relative;
           
             // Make the .hero a flex container to handle image positioning
-            display: flex;
             justify-content: center;
             align-items: center;
           
@@ -287,7 +286,8 @@
                     border: 2px solid yellow;
                 }
 
-                button {
+                input[type="submit"] {
+                    color: black;
                     margin: 5px 0;
                     background: white;
                     border: 2px solid black;
