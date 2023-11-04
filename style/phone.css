@@ -69,9 +69,6 @@ body .navbar-nav .nav-link {
   color: #333333 !important;
 }
 body .hero {
-  background-image: url("../images/hero.jpg");
-  background-size: cover;
-  background-position: center;
   height: 50vh;
   color: #fff;
   text-align: center;
@@ -85,6 +82,16 @@ body .hero {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+}
+body .hero picture {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+body .hero picture source,
+body .hero picture img {
+  max-width: 100%;
+  max-height: 100%;
 }
 body .hero .hero-center {
   width: 100%;
