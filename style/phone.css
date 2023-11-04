@@ -82,15 +82,25 @@ body .hero {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 body .hero picture {
   position: absolute;
   top: 0;
   left: 0;
-}
-body .hero picture source,
-body .hero picture img {
   width: 100%;
+  height: 100%;
+}
+body .hero picture img,
+body .hero picture source {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
 }
 body .hero .hero-center {
   width: 100%;

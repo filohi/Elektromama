@@ -81,9 +81,6 @@
         }
 
         .hero {
-            //background-image: url("../images/hero.jpg");
-            //background-size: cover;
-            //background-position: center;
             height: 50vh;
             color: #fff;
             text-align: center;
@@ -91,16 +88,26 @@
             justify-content: center;
             align-items: center;
             position: relative;
-
+          
+            // Make the .hero a flex container to handle image positioning
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          
             picture {
-                position: absolute;
-                top: 0;
-                left: 0;
-
-                source,
-                img {
-                    width: 100%;
-                }
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%; // This ensures the <picture> covers the entire .hero
+          
+              img,
+              source {
+                width: 100%;
+                height: 100%; // This ensures both <img> and <source> cover the entire <picture>
+                object-fit: cover; // Helps maintain aspect ratio and cover the container
+                object-position: center center; // Center the image within the <picture>
+              }
             }
 
             .hero-center {
